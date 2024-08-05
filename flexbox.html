@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Latian Aje Positioning Css</title>
+    </head>
+
+<style>
+
+    div{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: "Zain",sans-serif ;
+    }
+
+    p{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: "Zain",sans-serif ;
+    }
+
+    body{
+        height: 3000px;
+    }
+
+    .first-sidebar{
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgb(33, 33, 33);
+        width: 60px;
+    }
+
+   .profile{
+    border: none;
+    margin-top: 20px;
+    margin-left: 8px;
+    
+   }
+
+   .kucing{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 5px;
+   }
+
+   .sapi{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 5px;
+   }
+
+   .wibu{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+   }
+
+   .second-sidebar{
+    position: fixed;
+    left: 60px;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(55, 55, 55);
+    width: 130px;
+   }
+
+   .header-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px ;
+    margin-left: 8px ;
+    margin-top: 8px;
+   }
+
+   .info{
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 10px;
+   }
+
+   .icon{
+    color: rgb(170, 170, 170);
+    margin-right: 10px;
+   }
+
+   .channel{
+    color: rgb(156, 156, 156);
+    margin-left: 12px;
+    margin-bottom: 8px;
+    font-size: 12px;
+   }
+
+   .new-videos{
+    margin-bottom: 10px;
+   }
+
+   .updates{
+    margin-bottom: 10px;
+   }
+
+</style>
+
+    <body>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+
+
+
+
+<div class="first-sidebar">
+    <div class="pic-holder">
+        <div class="profile">
+        <img class="kucing" src="thumbails/kucingg.jpg">
+        <img class="sapi" src="thumbails/lowra.jpg">
+        <img class="wibu" src="thumbails/banana.jpg">
+        </div>
+    </div>
+</div>
+
+<div class="second-sidebar">
+    <div class="teks-holder">
+        <div class="header-icon">
+            <div class="info"> INFO</div>
+            <div class="icon"> + </div>
+        </div>
+
+        <div class="channel">
+            <div class="new-videos"> # new-videos</div>
+            <div class="updates"> # updates </div>
+            <div> # faq</div>
+        </div>
+    </div>
+</div>
+    </body>
+</html>
